@@ -1,0 +1,11 @@
+$mb: 600px;
+
+@mixin mobile {
+    @media screen and (max-width: $mb) {
+        @content;
+    }
+}
+
+@include mobile {
+
+}
